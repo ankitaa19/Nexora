@@ -1,0 +1,12 @@
+State,City,Order_Count,Total_Sales,Average_Profit
+Gujarat,Ahmedabad,17,14230,-51.76
+Gujarat,Surat,10,6828,134.5
+Madhya Pradesh,Indore,76,79069,54.72
+Madhya Pradesh,Bhopal,22,23583,39.59
+Madhya Pradesh,Delhi,3,2488,173.67
+Maharashtra,Mumbai,68,61867,24.07
+Maharashtra,Pune,22,33481,206.32
+Punjab,Chandigarh,16,12279,-72.06
+Punjab,Amritsar,9,4507,60.44
+Rajasthan,Jaipur,19,10076,-39.63
+Rajasthan,Udaipur,13,11073,154.62
