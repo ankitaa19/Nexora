@@ -29,6 +29,8 @@ furniture_targets["Month"] = pd.to_datetime(
     format="%b-%y"
 )
 
+furniture_targets = furniture_targets.sort_values("Month")
+
 # Calculate month-over-month target change
 furniture_targets["MoM_Target_Change_%"] = (
     furniture_targets["Target"].pct_change() * 100
@@ -91,7 +93,7 @@ analysis["Achievement_Deviation_%"] = (
 # Identify significant target
 # fluctuations
 # -----------------------------
-# A target increase greater than 1.5%
+# An absolute month-over-month target change greater than 1.5%
 # is treated as a significant fluctuation
 analysis["Significant_Target_Fluctuation"] = (
     analysis["MoM_Target_Change_%"].abs() > 1.5

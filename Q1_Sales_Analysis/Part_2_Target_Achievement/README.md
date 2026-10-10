@@ -33,7 +33,7 @@ The analysis includes:
 
 ## Significant Target Fluctuation
 
-For analytical purposes, a month-over-month target increase greater than 1.5% is flagged as a relatively significant fluctuation.
+For analytical purposes, an absolute month-over-month target change greater than 1.5% is flagged as a relatively significant fluctuation.
 
 This threshold is an analytical convention used to highlight larger changes within this dataset; it is not a threshold provided by the source data.
 

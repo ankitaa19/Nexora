@@ -32,7 +32,7 @@ print(sales_by_category.to_string(index=False))
 
 
 # ---------------------------------------------------------
-# 2. AVERAGE PROFIT PER ORDER BY CATEGORY
+# 2. AVERAGE PROFIT PER ORDER CONTAINING CATEGORY
 # ---------------------------------------------------------
 
 order_category_profit = (
@@ -44,12 +44,12 @@ avg_profit_by_category = (
     order_category_profit
     .groupby("Category", as_index=False)["Profit"]
     .mean()
-    .rename(columns={"Profit": "Average Profit per Order"})
-    .sort_values("Average Profit per Order", ascending=False)
+    .rename(columns={"Profit": "Average Profit per Order Containing Category"})
+    .sort_values("Average Profit per Order Containing Category", ascending=False)
 )
 
 print("\n" + "=" * 60)
-print("AVERAGE PROFIT PER ORDER BY CATEGORY")
+print("AVERAGE PROFIT PER ORDER CONTAINING CATEGORY")
 print("=" * 60)
 
 print(avg_profit_by_category.to_string(index=False))
@@ -156,7 +156,7 @@ category_summary = category_summary[
         "Category",
         "Total Sales",
         "Total_Profit",
-        "Average Profit per Order",
+        "Average Profit per Order Containing Category",
         "Profit Margin (%)"
     ]
 ]
@@ -169,7 +169,7 @@ print(
     category_summary.to_string(
         index=False,
         formatters={
-            "Average Profit per Order": "{:.2f}".format,
+            "Average Profit per Order Containing Category": "{:.2f}".format,
             "Profit Margin (%)": "{:.2f}".format
         }
     )

@@ -3,12 +3,12 @@
 ## Overall Performance
 
 The analysis shows clear differences between the three product categories across
-sales, average profit per order, and profit margin.
+sales, average profit per order containing that category, and profit margin.
 
 ### Electronics
 
 Electronics generated the highest total sales at ₹165,267 and the highest
-average profit per order at ₹51.44. However, its profit margin was 6.35%,
+average profit per order containing Electronics at ₹51.44. However, its profit margin was 6.35%,
 which was lower than Clothing's 8.03% margin.
 
 The sub-category analysis shows that Printers contributed ₹5,964 in profit,
@@ -45,7 +45,7 @@ cost analysis.
 
 Furniture was the weakest-performing category across the three main metrics.
 It generated ₹127,181 in sales, but only ₹2,298 in total profit. Its average
-profit per order was ₹12.35 and its profit margin was only 1.81%.
+profit per order containing Furniture was ₹12.35 and its profit margin was only 1.81%.
 
 The main concern is the Tables sub-category, which generated ₹22,614 in sales
 but recorded a loss of ₹4,011, resulting in a -17.74% margin.
@@ -60,7 +60,7 @@ prioritize profitable Furniture sub-categories such as Bookcases.
 
 ## Key Business Insight
 
-Electronics was the strongest category by sales and average profit per order,
+Electronics was the strongest category by sales and average profit per order containing that category,
 while Clothing was the strongest category by total profit and profit margin.
 
 This demonstrates that higher sales do not necessarily translate into higher
@@ -68,5 +68,5 @@ profitability. Clothing generated ₹11,163 in total profit despite having
 ₹26,213 less sales than Electronics.
 
 Furniture requires the greatest attention because it had the lowest average
-profit per order and profit margin, with Tables being a significant
+profit per order containing that category and profit margin, with Tables being a significant
 loss-making sub-category.

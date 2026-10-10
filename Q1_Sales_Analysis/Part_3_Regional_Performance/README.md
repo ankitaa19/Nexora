@@ -62,4 +62,4 @@ These cities should be investigated for factors such as product mix, pricing, di
 
 ## Data Quality Note
 
-The dataset contains 3 records where Delhi appears as the city under Madhya Pradesh. This should be treated as a data-quality inconsistency rather than used as a regional business conclusion.
+The dataset contains 3 records where Delhi appears as the city under Madhya Pradesh. The supplied dataset and reported results are left unchanged; this should be treated as a data-quality inconsistency rather than used as a regional business conclusion.
